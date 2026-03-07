@@ -1,25 +1,36 @@
 {
   "expo": {
-    "name": "SDEMY Mobile",
-    "slug": "sdemy-mobile",
+    "name": "SDEMY",
+    "slug": "SDEMY",
     "scheme": "sdemy",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050a2c"
+    },
     "android": {
-      "package": "com.sdemy.mobile"
+      "package": "com.sdemy.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#050a2c"
+      }
     },
     "web": {
       "bundler": "metro"
     },
-    "extra": {
-      "eas": {
-        "projectId": "replace-with-your-eas-project-id"
-      }
-    },
     "plugins": [
       "expo-secure-store",
       "expo-web-browser"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a233d835-1db4-4a56-820b-296244b4aafd"
+      }
+    },
+    "owner": "99sachin"
   }
 }

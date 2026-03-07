@@ -1,14 +1,19 @@
 {
   "cli": {
-    "version": ">= 14.0.0"
+    "version": ">= 14.0.0",
+    "appVersionSource": "remote"
   },
   "build": {
     "preview": {
+      "node": "20.19.0",
+      "npm": "10.8.2",
       "android": {
         "buildType": "apk"
       }
     },
     "production": {
+      "node": "20.19.0",
+      "npm": "10.8.2",
       "android": {
         "buildType": "app-bundle"
       }

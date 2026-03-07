@@ -1,0 +1,1 @@
+Place your SDEMY logo image files here:\n- assets/icon.png (1024x1024)\n- assets/adaptive-icon.png (1024x1024, transparent bg preferred)\n- assets/splash.png (1242x2436 or similar)\n\nYou can use the same image initially by copying your logo to all 3 files.
