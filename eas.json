@@ -9,8 +9,9 @@
         "NPM_CONFIG_IGNORE_SCRIPTS": "true",
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       },
-      "android": {
-        "buildType": "apk"
+       "android": {
+        "buildType": "apk",
+        "image": "ubuntu-22.04"
       }
     },
     "production": {
@@ -18,8 +19,9 @@
         "NPM_CONFIG_IGNORE_SCRIPTS": "true",
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       },
-      "android": {
-        "buildType": "app-bundle"
+       "android": {
+        "buildType": "app-bundle",
+        "image": "ubuntu-22.04"
       }
     }
   }
